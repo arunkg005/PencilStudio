@@ -41,3 +41,4 @@ frontend with `npm run dev`.
 8. AI Flashcards
 9. AI Study Planner
 10. OCR Notes Summarizer
+"# PencilStudio" 
