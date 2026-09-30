@@ -1,0 +1,23 @@
+{
+  "name": "pencilstudio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "proxy": "node server/ai-proxy.mjs",
+    "build": "vite build && node scripts/copy-404.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "dotenv": "^18.0.4",
+    "jspdf": "^4.2.1",
+    "pptxgenjs": "^4.0.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "tesseract.js": "^7.0.0",
+    "vite": "latest"
+  }
+}
